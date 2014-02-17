@@ -155,6 +155,9 @@ private:
 	// forceload_free_block(blockpos)
 	// stops forceloading a position
 	static int l_forceload_free_block(lua_State *L);
+
+	static int l_set_start_point(lua_State* L);
+	static int l_set_end_point(lua_State* L);
 	
 	// get us precision time
 	static int l_get_us_time(lua_State *L);
